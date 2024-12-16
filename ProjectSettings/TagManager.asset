@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BoxAttack
+  - Playerrr
+  - ObjectBoxAttack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Map
+  - Player
+  - Enemy
+  - HitBox
+  - HitBoxCharacter
+  - ZoneAttack
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Shadow
+    uniqueID: 1124375973
+    locked: 0
+  - name: MapCollide
+    uniqueID: 732808453
+    locked: 0
+  - name: VatThe
+    uniqueID: 3842982727
+    locked: 0
+  - name: Ghost
+    uniqueID: 3849630589
+    locked: 0
+  - name: Enemy
+    uniqueID: 1265711325
+    locked: 0
+  - name: NguoiChoi
+    uniqueID: 2378634873
+    locked: 0
+  - name: effect
+    uniqueID: 3267233075
+    locked: 0
