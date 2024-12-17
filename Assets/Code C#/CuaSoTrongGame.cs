@@ -22,10 +22,10 @@ public class CuaSoTrongGame : MonoBehaviour
     }
     public void ClosePauseMenu()
     {
-        QuanLiAmThanh.Instance.PlayButton();
-        DemThoiGian.Instance.ContinueCountDown();
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
+        QuanLiAmThanh.Instance.PlayButton();
+        DemThoiGian.Instance.ContinueCountDown();
     }
     public void VeNha()
     {

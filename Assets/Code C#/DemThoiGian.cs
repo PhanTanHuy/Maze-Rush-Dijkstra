@@ -42,12 +42,6 @@ public class DemThoiGian : MonoBehaviour
         bool sapHetThoiGian = false;
         while (remainingTime > 0)
         {
-            // Nếu game đang tạm dừng, đợi cho đến khi game tiếp tục
-            while (isStopCountdown)
-            {
-                yield return null; // Đợi 1 frame trước khi kiểm tra lại
-            }
-
             // Cập nhật Text với thời gian còn lại ở định dạng phút:giây
             timerText.text = FormatTime(remainingTime);
 
@@ -55,7 +49,7 @@ public class DemThoiGian : MonoBehaviour
             yield return new WaitForSecondsRealtime(1f);
 
             // Giảm thời gian còn lại
-            remainingTime--;
+            if (!isStopCountdown) remainingTime--;
             if (remainingTime < 10f && !sapHetThoiGian)
             {
                 sapHetThoiGian = true;
